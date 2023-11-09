@@ -218,7 +218,7 @@ a {
 
 .main-bg-color {
   /* background-color: gray; */
-  background-image: url(/main-page/main-bg.png);
+  background-image: url(main-bg.png);
   background-repeat: no-repeat;
   background-size: cover;
   padding: 100px 0;
