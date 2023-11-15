@@ -202,6 +202,7 @@ a {
   text-align: center;
   font-family: var(--main-font);
   font-size: 60px;
+  text-transform: uppercase;
   /* margin-top: 0; */
 }
 .entry__sub-title {
@@ -401,7 +402,9 @@ a {
   display: block;
 }
 
-
+.footer {
+  background-color: #151515;
+}
 .footer__item-center,
 .footer__item {
   display: flex;
