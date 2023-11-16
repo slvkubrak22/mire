@@ -35,6 +35,12 @@ a {
   justify-content: space-between;
   margin-bottom: 20px;
 }
+.text-start {
+  text-align: start;
+}
+.text-center{
+  text-align: center;
+}
 .btn {
   border-radius: 50px;
   border: solid 1px #FFF;
@@ -83,7 +89,6 @@ a {
   position: relative;
   z-index: 2;
 }
-
 
 .nav__hidden-text {
   display: none;
@@ -199,7 +204,7 @@ a {
   padding: 150px 0;
 }
 .entry__main-title {
-  text-align: center;
+  /* text-align: center; */
   font-family: var(--main-font);
   font-size: 60px;
   text-transform: uppercase;
