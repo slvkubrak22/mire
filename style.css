@@ -44,8 +44,8 @@ a {
 .btn {
   border-radius: 50px;
   border: solid 1px #FFF;
-  /* padding: 10px 40px; */
-  padding: 3% 10%;
+  padding: 10px 40px;
+  /* padding: 3% 10%; */
   text-align: center;
   background: transparent;
   cursor: pointer;
@@ -363,7 +363,7 @@ a {
   z-index: 1;
   transition: all 0.4s;
 }
-.article-item:hover .article-item__hovered-bg {
+.article-item:hover .article-item__hovered-bg{
   bottom: -40px ;
   right: -40px ;
 }
@@ -567,5 +567,10 @@ a {
   }
   .bottom-text-container p {
     text-align: center;
+  }
+}
+@media (max-width: 640px) {
+  .p-20 {
+    font-size: 16px;
   }
 }
