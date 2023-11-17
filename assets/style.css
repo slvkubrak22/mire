@@ -1,3 +1,14 @@
+:root {
+  --main-color: #FFF;
+  --grey: #FFFFFF99;
+  --grey2: #7F7F7F;
+  --red: #FF291C;
+  /* --hover: linear-gradient(88.87deg, #FF271A 0.25%, #FF5609 82.13%); */
+  --hover: linear-gradient(247deg, #FF7B1C 19.48%, #FF601C 40.24%, #FF291C 71.13%, #FF0F00 97.4%);
+  --main-font: 'Fahkwang', sans-serif;
+  --dm-font: 'DM Sans', sans-serif;
+}
+
 body {
   padding: 0;
 }
@@ -271,6 +282,84 @@ body {
 }
 .take-a-look__item-container:hover .article-item__hovered-img--circle {
   opacity: 1;
+}
+
+
+.case-page__about-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.case-page__about--text-container {
+  max-width: 800px;
+}
+.case-page__about--title {
+  font-size: 16px;
+}
+.case-page__about--description {
+  font-family: var(--dm-font);
+  font-size: 32px;
+}
+.case-page__about--sub-description {
+  font-family: var(--dm-font);
+}
+.case-page__comment-container {
+  width: 80%;
+}
+.case-page__comment-container--img-container {
+  width: 50%;
+}
+.case-page__comment-container--img-container img{
+  width: 100%;
+}
+.case-page__comment-container--text-container {
+  max-width: 500px;
+  font-size: 26px;
+  display: flex;
+  flex-direction: column;
+  font-family: var(--dm-font);
+  justify-content: space-between;
+}
+.case-page__comment-container--text-container p {
+  margin-top: 0;
+
+}
+.case-page__comment-container--text-container p:last-child {
+  font-size: 20px;
+  font-style: italic;
+  margin-bottom: 0;
+}
+.case-page__sketching--text-container {
+  width: 40%;
+  font-size: 24px;
+  text-transform: uppercase;
+}
+.case-page__sketching--text-container p:last-child {
+  font-family: var(--dm-font);
+  text-transform: math-auto;
+}
+.case-page__tour-visuals ul{
+  font-size: 24px;
+  font-family: var(--dm-font);
+  margin-bottom: 20px;
+}
+
+.bordered-container {
+  border-top: solid 1px #FFFFFF99;
+  padding: 30px 0;
+}
+.max-width-600 {
+  max-width: 600px;
+}
+.case-page__img {
+  width: 100%;
+}
+.width-50per {
+  width: 50%;
+}
+
+.max-width-container {
+  max-width: 1000px;
 }
 
 @media (max-width: 1140px) {

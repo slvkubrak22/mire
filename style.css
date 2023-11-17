@@ -501,6 +501,10 @@ a {
   gap: 20px;
   margin: 20px 0;
 }
+.header__main-logo, .footer-main-logo {
+  cursor: pointer;
+}
+
 
 @media (max-width: 1024px) {
 
