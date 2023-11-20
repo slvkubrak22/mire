@@ -362,6 +362,25 @@ body {
   max-width: 1000px;
 }
 
+.form-container {
+  display: flex;
+  justify-content: center;
+}
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+label {
+  font-size: 24px;
+  text-transform: uppercase;
+}
+input {
+  width: 100%;
+  font-size: 50px;
+}
+
+
 @media (max-width: 1140px) {
   .core-values__float-image {
     left: 15%;
@@ -442,6 +461,21 @@ body {
   }
   .who-we-support__text-container {
     align-self: baseline;
+  }
+  .case-page__comment-container {
+    width: 100%;
+  }
+  .case-page__comment-container--img-container {
+    width: 100%;
+  }
+  .width-50per {
+    width: 100%;
+  }
+  .case-page__sketching--text-container {
+    width: 100%;
+  }
+  .case-page__last-video {
+    display: none;
   }
 }
 
